@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/item1"
+       android:title="File">
+   </item>
+    <item android:id="@+id/item2"
+        android:title="Edit">
+        <menu>
+            <item android:id="@+id/sitem1"
+                android:title="cut">
+            </item>
+            <item android:id="@+id/sitem2"
+                android:title="copy">
+            </item>
+            <item android:id="@+id/sitem3"
+                android:title="paste">
+            </item>
+        </menu>
+    </item>
+    <item android:id="@+id/item3"
+        android:title="View">
+    </item>
+</menu>
